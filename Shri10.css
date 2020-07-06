@@ -1,0 +1,121 @@
+@charset "utf-8";
+body{
+  margin: 0px;
+  padding: 0px
+  background-color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  
+}
+footer{
+  background-color: #353745;
+  
+  
+  box-sizing:border-box;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+  
+  .f-logo{
+    color: #ffffff;
+    font-family:bebas kai;
+    letter-spacing:2px ;
+    padding: 5px 10px;
+    font-size: 100px;
+    
+  }
+  .f-logo:hover after{
+    background-color:green;
+    transition: 0.1s;
+  }
+  .f-logo:hover before{
+    background-color: pink;
+    transition: 0.1s;
+  }
+  .up-section{
+    font-family: calibri;
+    margin: 0px 20px;
+  }
+.up-section h1,.down-section h1{
+  color: #9697a0;
+  font-size: 20px;
+  font-family: calibri;
+  
+}
+.up-section ul li a,.down-section ul li a{
+  font-size: 16px;
+  color:#575a70;
+}
+.up-section ul li p,.down-section ul li p{
+  font-size: 14px;
+  color:#575a70;
+  line-height: 10px;
+  
+  
+}
+.up-section,.down-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0px;
+  margin: 5px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.up-section{
+  border-bottom: 2px solid #545562;
+}
+.social-icons a{
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
+  background-color: #424356;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1p);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.social-icons{
+  display: flex;
+}
+.searchinput{
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  border: none;
+  outline: none;
+  
+}
+.social-icons i{
+  color: #ffffff;
+  font-size: 10px;
+  
+}
+.copyright {
+  font-family: calibri;
+  font-size: 14px;
+  color: orange;}
+  .up-section ul li a:hover,.down-section ul li a:hover{
+    color:white;
+  }
+  .social-icons a:hover{
+    background-color: sky;
+    transition:all ease o.5s;
+  }
+  @media(max-width:1024px){
+    body{background-color: orange;
+  }}
+  .search{
+    margin:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+    
+  }
